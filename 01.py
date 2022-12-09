@@ -10,7 +10,7 @@ def cals_to_sums(cal_string):
   )
 
 if __name__ == '__main__':
-  with open('input.txt') as input_file:
+  with open('01.txt') as input_file:
     input_content = input_file.read().strip()
     elf_calories = input_content.split('\n\n')
     elf_calories = [*map(cals_to_sums, elf_calories)]

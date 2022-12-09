@@ -39,7 +39,7 @@ def hand_pairs_to_labels(hand_pairs):
   return values
 
 if __name__ == '__main__':
-  with open('input.txt') as input_file:
+  with open('02.txt') as input_file:
     input_content = input_file.read().strip().split('\n')
     value_pairs = [*map(hand_pairs_to_values, input_content)]
     label_pairs = [*map(hand_pairs_to_labels, input_content)]

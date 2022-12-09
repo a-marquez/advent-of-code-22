@@ -22,7 +22,7 @@ if __name__ == '__main__':
   char_value_dict = {char: i + 1 for i, char in enumerate(chars)}
   # print(char_value_dict)
 
-  with open('input.txt') as file:
+  with open('03.txt') as file:
     # rucksacks = test_rucksacks
     rucksacks = file.read()
     items = [*map(lambda string: string.strip(), rucksacks.strip().split('\n'))]

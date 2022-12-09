@@ -2,7 +2,7 @@
 section_to_range = lambda section_str: [*range(int(section_str.split('-')[0]), int(section_str.split('-')[1]) + 1)]
 
 if __name__ == '__main__':
-  with open('input.txt') as file:
+  with open('04.txt') as file:
     test_data = '''
     2-4,6-8
     2-3,4-5

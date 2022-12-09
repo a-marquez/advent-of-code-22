@@ -8,7 +8,7 @@ def dictByPath(dataDict, mapList):
     return reduce(operator.getitem, mapList, dataDict)
 
 if __name__ == '__main__':
-  with open('input.txt') as file:
+  with open('07.txt') as file:
     content = file.read().strip()
     test_content = '''$ cd /
 $ ls

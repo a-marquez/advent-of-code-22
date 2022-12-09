@@ -3,7 +3,7 @@ import functools
 import operator
 
 if __name__ == '__main__':
-  with open('input.txt') as file:
+  with open('05.txt') as file:
 
     test_input = '''    [D]
 [N] [C]
